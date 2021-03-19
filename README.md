@@ -8,6 +8,10 @@ _This requires Python 3_.  On the whole, a Python 2 module will look nearly
 identical, but Python 2 has some very slight differences in its C API that will
 prevent this from compiling under python 2.
 
+Both `example_library.c` and `setup.py` contain abundant comments. Start by
+looking at `example_library.c`; `setup.py` is only relevant when you're ready
+to compile and use the library.
+
 If you're confused by this example, the
 [official tutorial](https://docs.python.org/3/extending/extending.html) is
 a good starting point.
